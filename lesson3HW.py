@@ -40,7 +40,7 @@ def ScanUserMetric(weight, age, user):
     if age < 30 and 50 <= weight <= 120:
         return user + " - Вы богатырь, может 50 килограммовый, но богатырь"
     elif 30 <= age < 40  and (weight < 50 or weight > 120):
-        return user + " - Вы исчезаете или же вы фанат грузового лифта. Займитесь собой"
+        return user + " - Вы исчезаете или же у вас есть своя собственная орбита "
     elif 40 <= age < 100  and (weight < 50 or weight > 120):
         return user + " - Срочно обратитесь к лекарю" 
     elif age >= 100:
