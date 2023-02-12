@@ -5,16 +5,13 @@
 # my_list_1 = [2, 5, 8, 2, 12, 12, 4]
 # my_list_2 = [2, 7, 12, 3]
 
-my_list_1 = [2, 5, 8, 2, 12, 12, 4]
-my_list_2 = [2, 7, 12, 3]
+# my_list_1 = [2, 5, 8, 2, 12, 12, 4]
+# my_list_2 = [2, 7, 12, 3]
 
-for num in my_list_1[:]:
-    if num in my_list_2:
-        my_list_1.remove(num)
-print(my_list_1)
-
-
-
+# for num in my_list_1[:]:
+#     if num in my_list_2:
+#         my_list_1.remove(num)
+# print(my_list_1)
 
 # 2: Дана дата в формате dd.mm.yyyy, например: 02.11.2013. Ваша задача — вывести дату в текстовом виде,
 #  например: второе ноября 2013 года. Склонением пренебречь (2000 года, 2010 года)
@@ -83,8 +80,26 @@ print(my_list_1)
 # [5, 8]
 
 # my_list_1 = [2, 2, 5, 12, 8, 2, 12]
-# mylist = list(set(my_list_1))
-# print(mylist)
+# newOne = []
+# for num in my_list_1:
+#     if my_list_1.count(num) == 1:
+#         newOne.append(num)
+# print(newOne)
+
+
+        
+    
+        
+
+    
+    
+        
+        
+
+    
+
+
+
 
 
 
